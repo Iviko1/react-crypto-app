@@ -49,7 +49,7 @@ const Coins = () => {
         </div>
         {
         displayCoin.slice(0, 10).map((item, index) =>(
-          <Link to={`/coin/${item.id}`} className="table-layout" key={index}>
+          <Link to={`/react-crypto-app/coin/${item.id}`} className="table-layout" key={index}>
             <p>{item.market_cap_rank}</p>
             <div>
               <img src={item.image}/>

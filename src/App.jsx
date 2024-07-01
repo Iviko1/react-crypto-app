@@ -10,9 +10,9 @@ const App = () => {
     <div className="app">
       <Navbar/>
       <Routes>
-        <Route path="/" element={<Home/>}></Route>
-        <Route path="/coins" element={<Coins/>}></Route>
-        <Route path="/coin/:coinId" element={<Coin/>}></Route>
+        <Route path="react-crypto-app" element={<Home/>}></Route>
+        <Route path="react-crypto-app/coins" element={<Coins/>}></Route>
+        <Route path="react-crypto-app/coin/:coinId" element={<Coin/>}></Route>
       </Routes>
       <Footer/>
     </div>

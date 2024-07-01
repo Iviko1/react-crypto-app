@@ -31,12 +31,12 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-      <Link to={'/'}>
+      <Link to={'react-crypto-app'}>
         <img src={logo} alt="" className='logo'/>
       </Link>
         <ul>
-           <Link to={'/'}><li>Home</li></Link> 
-           <Link to={'/coins'}><li>Coins</li></Link>
+           <Link to={'react-crypto-app'}><li>Home</li></Link> 
+           <Link to={'react-crypto-app/coins'}><li>Coins</li></Link>
         </ul>
         <div className='nav-right'>
             <select onChange={currencyHandler}>

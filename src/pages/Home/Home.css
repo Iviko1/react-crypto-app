@@ -1,0 +1,38 @@
+.home{
+    padding: 0px 10px;
+}
+
+.home-container{
+    max-width: 600px;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.home-container h1{
+    font-size: max(4vw, 36px);
+}
+
+.home-container p{
+    width: 75%;
+    color: #e3e3e3;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.home-container button{
+    border: none;
+    background: #7927ff;
+    color: white;
+    font-size: 48px;
+    padding: 30px 90px;
+    border-radius: 5px;
+    cursor: pointer;   
+    margin-top: 50px;
+}
+
+.home-container button:hover{
+    opacity: 0.7;
+}
